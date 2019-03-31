@@ -653,6 +653,11 @@ footer a:hover {
     float: none;
   }
 
+  .about-content-left p,
+  .about-content-right p {
+    font-size: 16px;
+  }
+
   .about-content-right {
     margin-top: 15px;
     text-align: center;
@@ -707,6 +712,11 @@ footer a:hover {
     margin-top: 4px;
   }
 
+  .team-footer {
+    font-size: 16px;
+    text-align: justify;
+  }
+
   .grid-container-icon-3 {
     float: left;
   }
@@ -757,23 +767,46 @@ footer a:hover {
 }
 
 @media (max-width: 680px) {
+  .container {
+    padding: 0 20px;
+  }
   nav ul {
     width: 30%;
   }
 
   header h1 {
-    font-size: 36px;
+    font-size: 42px;
   }
 
-  #portfolio .flex-container {
+  header h2 {
+    font-size: 16px;
+  }
+
+  #more-btn {
+    width: 80%;
   }
 
   .portfolio-box {
     width: 70%;
   }
 
+  .about-content-left p,
+  .about-content-right p {
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .about-content-left,
+  .about-content-right {
+    text-align: left;
+  }
+
   #contact .container {
-    width: 70%;
+    width: 90%;
+  }
+
+  #contact input {
+    font-size: 16px;
   }
 }
 
