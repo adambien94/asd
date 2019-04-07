@@ -58,7 +58,7 @@ header {
   height: 525px;
   width: 100%;
   text-align: center;
-  background: url("img/wall2.png");
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.95));
   background-size: cover;
 }
 
@@ -134,8 +134,7 @@ nav li a:hover {
   transition: 0.35s;
 }
 
-.ham-nav a {
-}
+.ham-nav a {}
 
 .ham-nav a img {
   width: 100%;
@@ -144,8 +143,8 @@ nav li a:hover {
 header h2 {
   font-style: none;
   padding-top: 160px;
-  color: #f4f4f4;
-  font-size: 20px;
+  color: #fff;
+  font-size: 16px;
   font-weight: 100;
   font-family: "Noto Serif TC", serif;
   text-transform: none;
@@ -157,8 +156,8 @@ header h1 {
   margin-top: 20px;
   font-weight: 800;
   font-size: 50px;
-  color: rgba(255, 255, 255, 0.5);
-  text-shadow: 2px 2px white;
+  color: rgba(255, 255, 255, .9);
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
   letter-spacing: 0px;
 }
 
@@ -376,6 +375,7 @@ button:hover {
 #team a:hover {
   box-shadow: 0px 0px 12px 0px silver;
 }
+
 .icon {
   width: 100%;
 }
@@ -543,9 +543,11 @@ footer a:hover {
     border: none;
     color: #f2edab;
   }
+
   .nav-shrinked ul li a {
     line-height: 55px;
   }
+
   nav ul {
     transform: rotate(0deg);
     z-index: 2;
@@ -770,6 +772,7 @@ footer a:hover {
   .container {
     padding: 0 20px;
   }
+
   nav ul {
     width: 30%;
   }
@@ -840,8 +843,7 @@ footer a:hover {
     font-size: 30px;
   }
 
-  #portfolio .container {
-  }
+  #portfolio .container {}
 
   .flex-container {
     justify-content: center;
