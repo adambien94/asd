@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-  if (window.scrollY > $("header").innerHeight() - 50) {
+  if (window.scrollY > $("header").innerHeight()) {
     $("#nav-id").addClass("nav-shrinked");
   } else {
     $("#nav-id").removeClass("nav-shrinked");
