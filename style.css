@@ -257,7 +257,7 @@ header button {
   background: red;
   background: #fff;
   overflow: hidden;
-  box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.05);
   border-left: 4px solid rgba(0, 0, 0, 0.1);
   border-top: 4px solid rgba(0, 0, 0, 0.04);
   min-width: 200px;
@@ -489,7 +489,7 @@ p.team-footer {
   padding: 8px 0 8px 15px;
   width: 94%;
   margin: 12px 0;
-  box-shadow: inset 2px 2px 12px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 4px 4px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 #contact input {
