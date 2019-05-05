@@ -98,7 +98,7 @@ nav ul li {
 nav ul li a {
   line-height: 75px;
   margin-left: 35px;
-  padding: 2px 0;
+  padding: 2px 2px;
   text-decoration: none;
   text-transform: capitalize;
   color: #000;
@@ -142,7 +142,8 @@ nav li a:hover {
   display: none;
 }
 
-.ham-nav a {}
+.ham-nav a {
+}
 
 .ham-nav a img {
   width: 100%;
@@ -159,7 +160,6 @@ nav li a:hover {
 
 header h2 {
   font-style: none;
-  color: rgba(0, 0, 0, 1);
   font-size: 18px;
   font-weight: 100;
   font-family: "IBM Plex Mono", monospace;
@@ -248,7 +248,7 @@ header button {
 .flex-container {
   margin-top: 55px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -260,9 +260,8 @@ header button {
   box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.05);
   border-left: 4px solid rgba(0, 0, 0, 0.1);
   border-top: 4px solid rgba(0, 0, 0, 0.04);
-  min-width: 200px;
-  max-width: 250px;
-  margin: 15px;
+  width: 100%;
+  margin: 10px 0;
 }
 
 .portfolio-box h3 {
@@ -293,7 +292,7 @@ header button {
 .portfolio-link {
   padding: 0 4px;
   font-size: 16px;
-  color: blue;
+  color: lightpink;
 }
 
 .about-box {
@@ -321,6 +320,7 @@ header button {
   font-size: 14px;
   text-align: justify;
   margin-top: 12px;
+  border-top: 4px solid #000;
 }
 
 .about-img {
@@ -451,6 +451,10 @@ header button {
 }
 
 p.team-footer {
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  color: #000;
+  font-weight: 100;
   padding-top: 35px;
   margin: 35px auto 0 auto;
   width: 60%;
@@ -659,11 +663,8 @@ footer a:hover {
   .about-img {
     width: 140px;
     height: 140px;
-    border: 0px solid #f4f4f4;
     border-radius: 100px;
     position: relative;
-    background: url("img/abouuut.jpg");
-    background-size: cover;
   }
 
   .about-img:before {
@@ -720,6 +721,7 @@ footer a:hover {
 
   p.team-footer {
     padding-top: 35px;
+
     margin: 0 auto;
     width: 100%;
   }
